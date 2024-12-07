@@ -6,11 +6,10 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "buildstart": "npm build && npm start",
     "clean": "rm -rf dist",
     "lint": "tslint -p .",
     "precommit": "npm lint",
-    "start": "node dist/index.js"
+    "day1": "npm run build && node dist/Days/Day1/index.js"
   },
   "repository": {
     "type": "git",
